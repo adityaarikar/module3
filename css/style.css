@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-style: verdana;
+}
+
+
+/*** header starts from here ***/
+#header-nav{
+    background-color: maroon;
+    border-radius: 0px;
+    border: 0px;
+}
+.container h1{
+    color: white;
+}
+.navbar-brand a:focus, .navbar-brand a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px ;
+    margin: 8px 15px 8px 0px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
+.navbar-toggle:focus{
+    outline: 0;
+}
+.navbar-toggle .icon-bar{
+    display: block;
+    width: 22px;
+    height: 4px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+.navbar-toggle .icon-bar + .icon-bar{
+    margin-top: 4px;
+}
+@media (min-width: 768px){
+    .navbar-toggle{
+        display: none;
+    }
+}
+#collapsable-nav a{
+    color: white;
+    text-decoration: none;
+}
+/*** header ends here ***/
+
+
+/*** Main content starts here ***/
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.row{
+    width: 100%;
+    margin: auto;
+}
+.box{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
+}
+section{
+    background-color: rgb(179, 148, 148);
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    font-family: sans-serif;
+    position: relative;
+    overflow: auto;
+}
+#chicken{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+#beef{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#sushi{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/*** Main content ends here ***/
